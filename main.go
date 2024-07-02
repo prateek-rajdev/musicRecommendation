@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/prateek-rajdev/musicRecommendation/config"
+	"github.com/prateek-rajdev/musicRecommendation/dataStore"
 	"github.com/prateek-rajdev/musicRecommendation/routers"
 )
 
 func main() {
-	config.InitLibrary()
+	dataStore.InitLibrary()
 	r := routers.SetupRouter()
 	r.Run(":8080")
 }

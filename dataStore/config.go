@@ -1,4 +1,4 @@
-package config
+package dataStore
 
 import (
 	"github.com/prateek-rajdev/musicRecommendation/library/model"

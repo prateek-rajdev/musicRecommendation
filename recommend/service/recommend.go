@@ -2,13 +2,13 @@ package service
 
 import (
 	"errors"
-	"github.com/prateek-rajdev/musicRecommendation/config"
+	"github.com/prateek-rajdev/musicRecommendation/dataStore"
 	model2 "github.com/prateek-rajdev/musicRecommendation/library/model"
 	"sort"
 )
 
 func RecommendSongs(userName string) ([]model2.SongRecommendation, error) {
-	user, exists := config.GetLibrary().GetUser(userName)
+	user, exists := dataStore.GetLibrary().GetUser(userName)
 	if !exists {
 		return nil, errors.New("user not found")
 	}
@@ -18,7 +18,7 @@ func RecommendSongs(userName string) ([]model2.SongRecommendation, error) {
 	var results []model2.SongRecommendation
 
 	for songName, _ := range user.Playlist {
-		similarSongs, exist := config.GetSongSimilarity().GetSimilarity(songName)
+		similarSongs, exist := dataStore.GetSongSimilarity().GetSimilarity(songName)
 		if exist {
 			for _, s := range similarSongs {
 				if _, exists = user.Playlist[s.Song.Name]; !exists {
