@@ -1,8 +1,8 @@
 package main
 
 import (
-	"musicRecommendation/config"
-	"musicRecommendation/routers"
+	"github.com/prateek-rajdev/musicRecommendation/config"
+	"github.com/prateek-rajdev/musicRecommendation/routers"
 )
 
 func main() {

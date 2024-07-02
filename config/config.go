@@ -1,8 +1,8 @@
 package config
 
 import (
-	"musicRecommendation/library/model"
-	"musicRecommendation/library/service"
+	"github.com/prateek-rajdev/musicRecommendation/library/model"
+	"github.com/prateek-rajdev/musicRecommendation/library/service"
 )
 
 var Library *model.Library

@@ -2,9 +2,9 @@ package service
 
 import (
 	"errors"
-	"musicRecommendation/config"
-	"musicRecommendation/song/model"
-	"musicRecommendation/utils"
+	"github.com/prateek-rajdev/musicRecommendation/config"
+	"github.com/prateek-rajdev/musicRecommendation/song/model"
+	"github.com/prateek-rajdev/musicRecommendation/utils"
 )
 
 func AddSong(song model.Song) error {

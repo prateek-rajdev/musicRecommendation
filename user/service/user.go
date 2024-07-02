@@ -2,8 +2,8 @@ package service
 
 import (
 	"errors"
-	"musicRecommendation/config"
-	"musicRecommendation/user/model"
+	"github.com/prateek-rajdev/musicRecommendation/config"
+	"github.com/prateek-rajdev/musicRecommendation/user/model"
 )
 
 func AddUser(user model.User) error {

@@ -2,7 +2,7 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"musicRecommendation/recommend/service"
+	"github.com/prateek-rajdev/musicRecommendation/recommend/service"
 	"net/http"
 )
 

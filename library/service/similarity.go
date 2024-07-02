@@ -1,6 +1,6 @@
 package service
 
-import "musicRecommendation/library/model"
+import "github.com/prateek-rajdev/musicRecommendation/library/model"
 
 func NewSongSimilarityMap() *model.SongSimilarityMap {
 	return &model.SongSimilarityMap{

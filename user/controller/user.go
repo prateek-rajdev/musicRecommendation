@@ -2,8 +2,8 @@ package controller
 
 import (
 	"github.com/gin-gonic/gin"
-	"musicRecommendation/user/model"
-	"musicRecommendation/user/service"
+	"github.com/prateek-rajdev/musicRecommendation/user/model"
+	"github.com/prateek-rajdev/musicRecommendation/user/service"
 	"net/http"
 )
 

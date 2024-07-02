@@ -1,8 +1,8 @@
 package model
 
 import (
-	"musicRecommendation/song/model"
-	model2 "musicRecommendation/user/model"
+	"github.com/prateek-rajdev/musicRecommendation/song/model"
+	model2 "github.com/prateek-rajdev/musicRecommendation/user/model"
 )
 
 type Library struct {

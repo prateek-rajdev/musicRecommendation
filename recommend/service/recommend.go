@@ -2,8 +2,8 @@ package service
 
 import (
 	"errors"
-	"musicRecommendation/config"
-	model2 "musicRecommendation/library/model"
+	"github.com/prateek-rajdev/musicRecommendation/config"
+	model2 "github.com/prateek-rajdev/musicRecommendation/library/model"
 	"sort"
 )
 

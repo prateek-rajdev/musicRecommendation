@@ -1,6 +1,6 @@
 package model
 
-import "musicRecommendation/song/model"
+import "github.com/prateek-rajdev/musicRecommendation/song/model"
 
 // SongRecommendation embeds Song and adds a similarity score.
 type SongRecommendation struct {

@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"musicRecommendation/song/model"
+	"github.com/prateek-rajdev/musicRecommendation/song/model"
 	"reflect"
 )
 

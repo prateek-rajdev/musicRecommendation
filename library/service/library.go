@@ -1,9 +1,9 @@
 package service
 
 import (
-	model3 "musicRecommendation/library/model"
-	"musicRecommendation/song/model"
-	model2 "musicRecommendation/user/model"
+	model3 "github.com/prateek-rajdev/musicRecommendation/library/model"
+	"github.com/prateek-rajdev/musicRecommendation/song/model"
+	model2 "github.com/prateek-rajdev/musicRecommendation/user/model"
 )
 
 func NewLibrary() *model3.Library {

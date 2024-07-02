@@ -2,9 +2,9 @@ package routers
 
 import (
 	"github.com/gin-gonic/gin"
-	c3 "musicRecommendation/recommend/controller"
-	c1 "musicRecommendation/song/controller"
-	c2 "musicRecommendation/user/controller"
+	c3 "github.com/prateek-rajdev/musicRecommendation/recommend/controller"
+	c1 "github.com/prateek-rajdev/musicRecommendation/song/controller"
+	c2 "github.com/prateek-rajdev/musicRecommendation/user/controller"
 )
 
 func SetupRouter() *gin.Engine {
